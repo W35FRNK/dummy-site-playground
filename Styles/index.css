@@ -1,0 +1,171 @@
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 300px;
+}
+
+
+
+.main {
+ width: 95%;
+ 
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+
+
+
+/* ABOUT */
+#about {
+  background-color: var(--bg-green);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: .5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 4em;
+  
+}
+
+
+
+.about-text {
+  padding: .5em;
+}
+
+.about-text > h1 {
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+
+.image-medium {
+  background-color: var(--clr-yellow);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  align-self: center;
+  margin: .5em;
+  
+}
+
+
+
+
+
+/* TESTIMONIALS */
+
+#testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  padding: 1em;
+  margin-bottom: 2em;
+  
+
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1em 1em;
+  background-color: var(--bg-lgreen);
+}
+
+
+
+@media (max-width: 580px) {
+  .main {
+    width: 100%;
+  }
+  
+  
+  .about-text {
+    grid-area: text;
+  }
+
+  .image {
+    grid-area: image;
+  }
+
+  #about {
+    background-color: var(--bg-green);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'image'
+    'text'
+    ;
+    gap: .5em;
+    
+    
+  }
+
+
+
+  #testimonials {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: .5em;
+  
+  }
+}
+
+
+/* PRICING */
+#pricing {
+  padding: 1em;
+  background-color: var(--bg-lgreen);
+  margin-bottom: 4em;
+}
+
+#priceList1 {
+  margin-bottom: 2em;
+}
+
+
+/* CONTACT */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: white;
+  }
+  
+  input[type=submit] {
+    background-color: var(--bg-green);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--bg-lgreen);
+  }
+  
+  #form_container {
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 5rem;
+    background-color: var(--clr-white);
+  } 
+
+
+ 
