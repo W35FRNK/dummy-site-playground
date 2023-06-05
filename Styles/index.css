@@ -90,8 +90,7 @@
 #pricing {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-
-	background-color: var(--bg-lgreen);
+	gap: 0.5rem;
 	margin-bottom: 4em;
 }
 
@@ -173,8 +172,7 @@ input[type="submit"]:hover {
 	#pricing {
 		display: grid;
 		grid-template-columns: 1fr;
-
-		background-color: var(--bg-lgreen);
+		gap: 0.5rem;
 		margin-bottom: 4em;
 	}
 }
