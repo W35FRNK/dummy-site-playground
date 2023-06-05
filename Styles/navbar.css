@@ -76,6 +76,14 @@
 		height: 10px;
 		border-top: 2px solid #333;
 	}
+
+	.nav > .nav-btn > label > #sp-mid {
+		display: block;
+		width: 15px;
+		height: 10px;
+		border-top: 2px solid #333;
+	}
+
 	.nav > .nav-links {
 		position: absolute;
 		display: block;
