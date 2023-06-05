@@ -15,7 +15,8 @@
 .nav {
   height: 50px;
   width: 100%;
-  background-color: var(--bg-lgreen) ;
+  background-color: var(--clr-white) ;
+  color: var(--sec-black);
   position: sticky;
   top: 0;
   border-bottom: 4px solid var(--bg-green);
