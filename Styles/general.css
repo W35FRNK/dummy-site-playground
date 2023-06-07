@@ -3,7 +3,12 @@ body {
 }
 
 * {
-	line-height: 1.6;
+	line-height: 1.5;
+}
+
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
 :root {

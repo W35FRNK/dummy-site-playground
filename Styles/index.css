@@ -51,7 +51,7 @@
 }
 
 .image-medium {
-	background-color: var(--clr-yellow);
+	background-color: var(--bg-green);
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
